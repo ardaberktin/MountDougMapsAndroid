@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#463a8c"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="413dp"
+        android:layout_height="543dp"
+        android:backgroundTint="#463a8c"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#463a8c"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchMap1"
+                android:text="School Map Fırst Floor" />
+
+            <Button
+                android:id="@+id/button0.5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchMap2"
+                android:text="School Map Second Floor" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:shadowColor="#F6F6F6"
+                android:text="Room101"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#CFCFCF"
+                app:iconTint="#A39696" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room102" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room103" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room104" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room105" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room106" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room107" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room108" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room109" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room110" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room111" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room112" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room113" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room114" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room116" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room117" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room118" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room119" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room120" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room121" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room122" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room123" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room201" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room202" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room203" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room205" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room206" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room207" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room208" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room209" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room210" />
+
+            <Button
+                android:id="@+id/button38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room211" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room212" />
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room214" />
+
+
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room216" />
+
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room217" />
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room218" />
+
+            <Button
+                android:id="@+id/button45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room219" />
+
+            <Button
+                android:id="@+id/button46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room220" />
+
+            <Button
+                android:id="@+id/button47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room221" />
+
+            <Button
+                android:id="@+id/button48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room222" />
+
+            <Button
+                android:id="@+id/button49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room223" />
+
+
+            <Button
+                android:id="@+id/button51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room225" />
+
+            <Button
+                android:id="@+id/button52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room226" />
+
+            <Button
+                android:id="@+id/button53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#463a8c"
+                android:onClick="launchWindow"
+                android:text="Room227" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="369dp"
+        android:layout_height="81dp"
+        android:backgroundTint="#463a8c"
+        android:text="Please Click On The Room You Would Like To Find."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
